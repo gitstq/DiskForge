@@ -75,4 +75,6 @@ Thumbs.db
 *.html
 *.md
 !README.md
+!README_EN.md
+!README_TW.md
 !CONTRIBUTING.md
