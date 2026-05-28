@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diskforge"
+version = "1.0.0"
+description = "Lightweight Terminal Disk Usage Analyzer Engine - Zero dependencies, TUI dashboard, duplicate detection, multi-format reports"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "DiskForge Team", email = "diskforge@example.com"}
+]
+keywords = [
+    "disk",
+    "usage",
+    "analyzer",
+    "terminal",
+    "tui",
+    "disk-usage",
+    "storage",
+    "duplicate-finder",
+    "cli"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+diskforge = "diskforge:main"
+
+[project.urls]
+Homepage = "https://github.com/gitstq/DiskForge"
+Repository = "https://github.com/gitstq/DiskForge"
+Issues = "https://github.com/gitstq/DiskForge/issues"
+
+[tool.setuptools]
+py-modules = ["diskforge"]

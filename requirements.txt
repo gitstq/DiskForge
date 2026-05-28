@@ -1,0 +1,3 @@
+# DiskForge - Zero Dependencies
+# This project uses only Python standard library modules
+# No additional packages required!
